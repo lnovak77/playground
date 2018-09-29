@@ -19,5 +19,15 @@ public class Chapter1Tests {
 		Assertions.assertTrue(chapter.isUnique("asdfgHJKUT"),"Positive test");
 		Assertions.assertFalse(chapter.isUnique("asdfgHaJKUT"),"Positive test");
 	}
+	
+	@Test
+	public void testIsPermutation()
+	{
+		Assertions.assertTrue(chapter.isPermutation(null,null),"bot nulls");
+		Assertions.assertFalse(chapter.isPermutation(null,"sda"),"null not null");
+		Assertions.assertFalse(chapter.isPermutation("dasfdafds","sdad"),"different size");
+		Assertions.assertFalse(chapter.isPermutation("dasf","sdad"),"same size different chars");
+		Assertions.assertTrue(chapter.isPermutation("dasf","sfda"),"same size same chars");
+	}
 
 }
