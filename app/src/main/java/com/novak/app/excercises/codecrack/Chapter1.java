@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 public class Chapter1 {
+	/* Excercise 1.1. */
 	public  boolean isUnique(String s)
 	{
 		HashSet<Character> dict = new HashSet<>();
@@ -12,6 +13,7 @@ public class Chapter1 {
 		return true;	
 	}
 	
+	/* Excercise 1.2*/
 	public  boolean isPermutation(String s1, String s2)
 	{
 		if (((s1==null)^(s2==null))) return false;
