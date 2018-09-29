@@ -7,7 +7,7 @@ public class Chapter1 {
 	{
 		HashSet<Character> dict = new HashSet<>();
 		for (char c:s.toCharArray()) if (!dict.add(c)) return false;
-		//second co  mt
+		//second co hi  mt
 		return true;	
 	}					
 
