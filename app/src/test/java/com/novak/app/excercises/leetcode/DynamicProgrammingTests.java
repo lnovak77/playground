@@ -1,4 +1,4 @@
-package com.novak.app.excercises.codecrack;
+package com.novak.app.excercises.leetcode;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
